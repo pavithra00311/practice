@@ -31,11 +31,25 @@ print(max(list))
 udh=("pav","id","IBG")
 print(max(udh))
 print(tuple(udh))
+      
 
 
 
 
 
 
-
+colors=["red","orange","purple"]
+for i,colors in enumerate(colors,start=1):
+    print(i,colors)
+bikes=["a","b","c"]
+for i,bikes in enumerate(bikes, start=1):
+    print(i,bikes)
+cars=["bmw","benz","audi"]
+range=[1,3,5,6]
+print(list(zip(cars,range)))
+words=["hd","Ih","huih"]
+lowercase=list(map(str.lower,words))
+print(lowercase)
+ty=["st","sehn","dhr"]
+print(list(sorted(ty)))
            
