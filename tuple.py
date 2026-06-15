@@ -1,0 +1,30 @@
+c = ()
+print(type(c))
+c=(1,2,"pavi")
+print(c[2])
+c=(1,2,3,4)
+print(c[1:4:2])
+z=(23,45,6,8,9,13)
+print(min(z))
+print(max(z))
+print(sum(z))
+print(len(z))
+t1=(1,2,3,4)
+t2=(5,6,7,8)
+print(t1+t2)
+t3=(5,6,7,8)
+print(t3 * 11)
+t4 = (1,2,3,4)
+for i in t4:
+  print(i)
+  t=(1,2,3,4)
+  print(3 in t)
+  print(8 in t)
+  t1=(1,2,3,4)
+  t2=(5,6,7,8)
+  print(t1 is t2)
+  print(t1 is not t2)
+  
+
+
+
